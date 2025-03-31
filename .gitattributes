@@ -1,0 +1,5 @@
+*.json filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text
+dataset_longlamp/product_review_user/test-00000-of-00001-nonPers.parquet filter=lfs diff=lfs merge=lfs -text
+dataset_longlamp/product_review_user/bm_test.json filter=lfs diff=lfs merge=lfs -text
+dataset_longlamp/product_review_user/ct_test.json filter=lfs diff=lfs merge=lfs -text
